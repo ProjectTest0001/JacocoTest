@@ -10,7 +10,7 @@ public class CoverageTest {
         // TODO Auto-generated method stub
 
     }
-    
+
     public static int  testadd(int x, int y){
         int c = 0;
         if(x == 10){

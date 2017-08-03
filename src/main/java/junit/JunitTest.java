@@ -3,6 +3,7 @@ package junit;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 /**
  * Created by 000284 on 2017/2/6.
  */
