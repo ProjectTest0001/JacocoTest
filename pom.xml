@@ -30,7 +30,7 @@
         <dependency>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.7.8</version>
+            <version>0.7.4.201502262128</version>
         </dependency>
     </dependencies>
     <build>
@@ -54,7 +54,7 @@
  <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.7.8</version>
+    <version>0.7.4.201502262128</version>
     <executions>
         <!-- The Executions required by unit tests are omitted. -->
         <!--
