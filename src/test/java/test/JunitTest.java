@@ -1,7 +1,9 @@
-package junit;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import junit.CoverageTest;
 
 
 /**
@@ -18,5 +20,4 @@ public class JunitTest {
         int c = CoverageTest.testadd(10, 20);
         Assert.assertEquals(c, 30);
     }
-
 }
