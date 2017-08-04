@@ -1,6 +1,6 @@
 package junit;
 
-public class CoverageTest {
+public class CoveragePlay {
     public static int  testadd(int x, int y){
         int c = 0;
         if(x == 10){

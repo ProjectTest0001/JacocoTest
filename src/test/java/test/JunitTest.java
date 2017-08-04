@@ -3,7 +3,7 @@ package test;
 import org.junit.Assert;
 import org.junit.Test;
 
-import junit.CoverageTest;
+import junit.CoveragePlay;
 
 
 /**
@@ -12,12 +12,12 @@ import junit.CoverageTest;
 public class JunitTest {
     @Test
     public void testadd(){
-        int b = CoverageTest.testadd(5, 20);
+        int b = CoveragePlay.testadd(5, 20);
         Assert.assertEquals(b,50);
     }
     @Test
     public void testadd1(){
-        int c = CoverageTest.testadd(10, 20);
+        int c = CoveragePlay.testadd(10, 20);
         Assert.assertEquals(c, 30);
     }
 }

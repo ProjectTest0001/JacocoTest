@@ -29,7 +29,7 @@
                 <version>3.7</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/src/test/java/test/*.*</exclude>
+                        <exclude>src/test/java/**/*</exclude>
                      </excludes>
                 </configuration>
                 <executions>
