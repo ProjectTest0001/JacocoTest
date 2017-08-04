@@ -28,7 +28,9 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.7</version>
                 <configuration>
-                    <exclude>**/src/test/java/**/*.*</exclude>
+                    <excludes>
+                        <exclude>**/src/test/java/test/*.*</exclude>
+                     </excludes>
                 </configuration>
                 <executions>
                     <execution>
