@@ -1,6 +1,6 @@
 package invalid;
 
-public class Concu {
+public class Concu2 {
     public static int  testadd(int x, int y){
         int c = 0;
         if(x == 10){
